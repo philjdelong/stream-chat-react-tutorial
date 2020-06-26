@@ -39,7 +39,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        'http://localhost:8080/v1/auth/init',
+        'https://node-tutorial-stream-chat.herokuapp.com/',
         payload
       );
 
