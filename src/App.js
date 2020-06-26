@@ -39,7 +39,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        '<your heroku app url>/v1/auth/init',
+        'http://localhost:8080/v1/auth/init',
         payload
       );
 
