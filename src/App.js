@@ -17,6 +17,8 @@ import axios from 'axios';
 import Auth from './Auth';
 
 import 'stream-chat-react/dist/css/index.css';
+import dotenv from 'dotenv';
+dotenv.config();
 
 let chatClient;
 function App() {
