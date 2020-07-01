@@ -24,7 +24,7 @@ function Auth(props) {
           <ul>
             <li className={auth === 'login' ? 'is-active' : ''}>
               <a
-                href="#"
+                // href="#"
                 onClick={e => {
                   e.preventDefault();
                   setAuth('login');
@@ -35,7 +35,7 @@ function Auth(props) {
             </li>
             <li className={auth === 'signup' ? 'is-active' : ''}>
               <a
-                href="#"
+                // href="#"
                 onClick={e => {
                   e.preventDefault();
                   setAuth('signup');
