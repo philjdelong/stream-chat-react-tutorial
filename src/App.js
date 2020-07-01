@@ -6,17 +6,19 @@ import {
   ChannelHeader,
   Thread,
   Window,
-  ChannelList,
-  ChannelListTeam,
+  // ChannelList,
+  // ChannelListTeam,
   MessageList,
   MessageTeam,
   MessageInput,
 } from 'stream-chat-react';
 import { StreamChat } from 'stream-chat';
+
 import axios from 'axios';
 import Auth from './Auth';
 
 import 'stream-chat-react/dist/css/index.css';
+
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -68,13 +70,13 @@ function App() {
   if (channel) {
     return (
       <Chat client={chatClient} theme="messaging light">
-        <ChannelList
+        {/* <ChannelList
           options={{
             subscribe: true,
             state: true,
           }}
           List={ChannelListTeam}
-        />
+        /> */}
         <Channel channel={channel}>
           <Window>
             <ChannelHeader />
