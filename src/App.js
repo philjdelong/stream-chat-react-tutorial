@@ -6,8 +6,8 @@ import {
   ChannelHeader,
   Thread,
   Window,
-  // ChannelList,
-  // ChannelListTeam,
+  ChannelList,
+  ChannelListTeam,
   MessageList,
   MessageTeam,
   MessageInput,
@@ -70,13 +70,13 @@ function App() {
   if (channel) {
     return (
       <Chat client={chatClient} theme="messaging light">
-        {/* <ChannelList
+        <ChannelList
           options={{
             subscribe: true,
             state: true,
           }}
           List={ChannelListTeam}
-        /> */}
+        />
         <Channel channel={channel}>
           <Window>
             <ChannelHeader />
