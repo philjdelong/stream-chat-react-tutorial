@@ -69,7 +69,7 @@ function App() {
 
   if (channel) {
     return (
-      <Chat client={chatClient} theme="messaging light">
+      <Chat client={chatClient} theme="messaging dark">
         <ChannelList
           options={{
             subscribe: true,
