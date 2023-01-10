@@ -13,8 +13,8 @@
     "react-dom": "^16.13.1",
     "react-modal-login": "^1.4.5",
     "react-scripts": "3.4.1",
-    "stream-chat": "^1.12.1",
-    "stream-chat-react": "^1.2.5"
+    "stream-chat": "^8.2.1",
+    "stream-chat-react": "^10.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
